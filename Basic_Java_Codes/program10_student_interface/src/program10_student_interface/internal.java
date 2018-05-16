@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program9_student_interface;
+package program10_student_interface;
 
 /**
  *
  * @author harshvardhansahay
  */
-interface external {
+interface internal {
     void get();
     void put();
 }

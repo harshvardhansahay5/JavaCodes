@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program5_complex_number_constructor_objects_methods;
+package program05_complex_number_constructor_objects_methods;
 import java.util. *;
 /**
  *

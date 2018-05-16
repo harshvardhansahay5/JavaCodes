@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program2_matrix_operations;
+package program02_matrix_operations;
 import java.util.*;
 /**
  *
  * @author harshvardhansahay
  */
-public class Program2_matrix_operations {
+public class Program02_matrix_operations {
     /**
      * @param args the command line arguments
      */

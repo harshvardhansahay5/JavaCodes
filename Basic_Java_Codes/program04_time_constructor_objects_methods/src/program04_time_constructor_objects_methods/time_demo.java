@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program4_time_constructor_objects_methods;
+package program04_time_constructor_objects_methods;
 import java.util.Scanner;
 /**
  *

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program8_stack;
+package program08_stack;
 import java.util.*;
 /**
  *
  * @author harshvardhansahay
  */
-public class Program8_stack {
+public class Program08_stack {
 
     /**
      * @param args the command line arguments

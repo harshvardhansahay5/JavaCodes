@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program6_distance_constructor_objects_methods;
+package program06_distance_constructor_objects_methods;
 import java.util.*;
 /**
  *

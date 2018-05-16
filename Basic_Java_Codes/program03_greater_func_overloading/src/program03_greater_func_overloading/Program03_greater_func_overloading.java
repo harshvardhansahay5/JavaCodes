@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program3_greater_func_overloading;
+package program03_greater_func_overloading;
 import java.util.*;
 /**
  *
  * @author harshvardhansahay
  */
-public class Program3_greater_func_overloading {
+public class Program03_greater_func_overloading {
 
     /**
      * @param args the command line arguments
@@ -24,7 +24,7 @@ public class Program3_greater_func_overloading {
         int n2 = sc.nextInt();
         System.out.print("Enter the Third number:\t");
         int n3 = sc.nextInt();
-        Program3_greater_func_overloading obj = new Program3_greater_func_overloading();
+        Program03_greater_func_overloading obj = new Program03_greater_func_overloading();
         while(true) {
             menu();
             choice(n1, n2, n3);

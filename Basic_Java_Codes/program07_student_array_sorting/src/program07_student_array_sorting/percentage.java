@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program7_student_array_sorting;
+package program07_student_array_sorting;
 
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package counting.sheep;
+package counting_sheep;
 
 import java.util.*;
 import java.util.logging.Level;
@@ -13,13 +13,13 @@ import java.util.logging.Logger;
  *
  * @author harshvardhansahay
  */
-public class CountingSheep implements Runnable {
+public class Counting_Sheep implements Runnable {
     
     public boolean running = false;
     
     int num, check;
 
-    public CountingSheep(int n) {
+    public Counting_Sheep(int n) {
         num = n;
         check = 0;
         Thread thread = new Thread(this);  
@@ -28,7 +28,7 @@ public class CountingSheep implements Runnable {
     
     public static void main(String[] args) {
         
-        List<CountingSheep> num = new ArrayList<>();
+        List<Counting_Sheep> num = new ArrayList<>();
         
         Scanner sc = new Scanner(System.in);
         
@@ -37,15 +37,15 @@ public class CountingSheep implements Runnable {
         int T = sc.nextInt();
         
         for (int i = 0; i < T; i++){
-            num.add(new CountingSheep(sc.nextInt()));
+            num.add(new Counting_Sheep(sc.nextInt()));
         }
 
-        for (CountingSheep cs : num) {
+        for (Counting_Sheep cs : num) {
             while (cs.running) {
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(CountingSheep.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Counting_Sheep.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
@@ -75,7 +75,7 @@ public class CountingSheep implements Runnable {
 }
 
 
-class number extends CountingSheep implements Runnable{
+class number extends Counting_Sheep implements Runnable{
 
     public number(int n) {
         

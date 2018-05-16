@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program9_queue;
+package program09_queue;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author harshvardhansahay
  */
-public class Program9_queue {
+public class Program09_queue {
 
     static int front = -1, rear = -1, q[];
     /**

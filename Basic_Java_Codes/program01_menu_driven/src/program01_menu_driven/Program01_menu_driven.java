@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program1_menu_driven;
+package program01_menu_driven;
 import java.util.*;
 /**
  *
  * @author harshvardhansahay
  */
-public class Program1_menu_driven {
+public class Program01_menu_driven {
     /**
      * @param args the command line arguments
      */    
